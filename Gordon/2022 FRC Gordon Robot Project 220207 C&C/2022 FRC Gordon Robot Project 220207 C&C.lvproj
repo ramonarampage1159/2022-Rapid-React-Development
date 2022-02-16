@@ -112,6 +112,9 @@ AddOutputFilter chunkFilter
 		<Item Name="Vision" Type="Folder" URL="../Vision">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="Forklift" Type="Folder" URL="../Forklift">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Teleop.vi" Type="VI" URL="../Teleop.vi"/>
 		<Item Name="Autonomous.vi" Type="VI" URL="../Autonomous.vi"/>
@@ -494,6 +497,8 @@ AddOutputFilter chunkFilter
 				<Item Name="Color (U64)" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Color (U64)"/>
 				<Item Name="WPI_UtilitiesFRC SendMessageToConsole.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Utilities/WPI_UtilitiesFRC SendMessageToConsole.vi"/>
 				<Item Name="NetComm_SendMessage.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/NetworkCommunication/NetComm_SendMessage.vi"/>
+				<Item Name="WPI_MotorControlSafetyTest.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/MotorControl/WPI_MotorControlSafetyTest.vi"/>
+				<Item Name="WPI_MotorControlSafetyConfig.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/MotorControl/WPI_MotorControlSafetyConfig.vi"/>
 			</Item>
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -510,6 +515,15 @@ AddOutputFilter chunkFilter
 			<Item Name="nivision.dll" Type="Document" URL="nivision.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Chinups Controller.vi" Type="VI" URL="../Chinups/Implementation/Chinups Controller.vi"/>
+			<Item Name="Chinups Setpoints.ctl" Type="VI" URL="../Chinups/Implementation/Chinups Setpoints.ctl"/>
+			<Item Name="Chinups Operations.ctl" Type="VI" URL="../Chinups/Implementation/Chinups Operations.ctl"/>
+			<Item Name="Chinups Controller Interactive Check.vi" Type="VI" URL="../Chinups/Implementation/Infrastructure/Chinups Controller Interactive Check.vi"/>
+			<Item Name="Read Chinups Operation.vi" Type="VI" URL="../Chinups/Commands/Read Chinups Operation.vi"/>
+			<Item Name="Chinups Command Helper.vi" Type="VI" URL="../Chinups/Implementation/Infrastructure/Chinups Command Helper.vi"/>
+			<Item Name="Chinups Published Globals.vi" Type="VI" URL="../Chinups/Implementation/Chinups Published Globals.vi"/>
+			<Item Name="Chinups Controller Initialization.vi" Type="VI" URL="../Chinups/Implementation/Infrastructure/Chinups Controller Initialization.vi"/>
+			<Item Name="Chinups Check for New Command.vi" Type="VI" URL="../Chinups/Implementation/Infrastructure/Chinups Check for New Command.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
