@@ -1,0 +1,96 @@
+Robot
+		ID: FRC Bot_R0
+				Sensor
+						ID: Devantech SRF05_S0,Controller 1,DIO 0,Controller 1,DIO 1
+						ID: IMU_S0,Controller 1,AI 1
+						ID: AXIS M1011_S0
+						ID: Honeywell HMC6343_S0
+						ID: Devantech SRF05_S0,Controller 1,DIO 2,Controller 1,DIO 3
+						ID: Devantech SRF05_S0,Controller 1,DIO 4,Controller 1,DIO 5
+				Joint
+						ID: Joint_J4
+						ID: Joint_J5
+						ID: Joint_J6
+						ID: Joint_J7
+						ID: Joint_J8
+						ID: Joint_J9
+						ID: Joint_J18
+						ID: Joint_J2
+						ID: Joint_J0
+						ID: Joint_J1
+						ID: Joint_J3
+						ID: Joint_J10
+				Actuator
+						ID: CameraHorizontalServo,Controller 1,PWM 5
+						ID: RRear Motor,Controller 1,PWM 3
+						ID: LRear Motor,Controller 1,PWM 2
+						ID: LFront Motor,Controller 1,PWM 0
+						ID: RFront Motor,Controller 1,PWM 1
+				Robot Component
+						ID: Body Frame
+						ID: Box
+						ID: Box_O0
+						ID: Mecanum Wheel RR
+						ID: Mecanum Wheel RL
+						ID: Mecanum Wheel FL
+						ID: Mecanum Wheel FR
+		ID: SCARA_CAD_R0_R0
+				Sensor
+						ID: Devantech SRF05_S0,Controller 1,DIO MXP 0,Controller 1,DIO MXP 1
+				Joint
+						ID: Joint_J0
+				Actuator
+				Robot Component
+						ID: Box
+		ID: SCARA_CAD_R0_R1
+				Sensor
+						ID: Devantech SRF05_S0,Controller 1,DIO MXP 2,Controller 1,DIO MXP 3
+				Joint
+						ID: Joint_J0
+				Actuator
+				Robot Component
+						ID: Box
+
+
+Obstacle
+						ID: Box_O7
+						ID: Box_O2
+						ID: Box_O1
+						ID: Box_O3
+						ID: Box_O4
+						ID: Box_O5
+						ID: Box_O6
+						ID: Box_O10
+						ID: Box_O11
+						ID: Box_O12
+						ID: Box_O13
+						ID: Box_O14
+						ID: Box_O15
+						ID: Box_O16
+						ID: Box_O17
+						ID: Box_O18
+						ID: Box_O19
+						ID: Box_O21
+						ID: Box_O22
+						ID: Box_O23
+						ID: Box_O24
+						ID: Box_O25
+						ID: Box_O26
+						ID: Box_O27
+						ID: Box_O28
+						ID: Box_O29
+						ID: Box_O30
+						ID: Box_O31
+						ID: Box_O32
+						ID: Box_O33
+						ID: Box_O34
+						ID: Box_O35
+						ID: Box_O36
+						ID: Box_O0
+						ID: Box_O8
+						ID: Box_O9
+						ID: Box_O20
+						ID: Box_O37
+						ID: Box_O38
+						ID: Box_O39
+						ID: Box_O41
