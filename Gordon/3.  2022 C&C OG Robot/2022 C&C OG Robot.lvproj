@@ -121,6 +121,9 @@ AddOutputFilter chunkFilter
 		<Item Name="Shooter2" Type="Folder" URL="../Shooter2">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="Intake" Type="Folder" URL="../Intake">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Teleop.vi" Type="VI" URL="../Teleop.vi"/>
 		<Item Name="Autonomous.vi" Type="VI" URL="../Autonomous.vi"/>
@@ -605,7 +608,6 @@ AddOutputFilter chunkFilter
 				<Item Name="Spark MAX Close.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/REV Robotics/REVLib/SubVI/Public/Spark MAX Close.vi"/>
 				<Item Name="NetComm_CAN_CloseStreamSession.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/NetworkCommunication/NetComm_CAN_CloseStreamSession.vi"/>
 				<Item Name="Spark MAX Unregister Device With Daemon.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/REV Robotics/REVLib/SubVI/Private/Daemon/Spark MAX Unregister Device With Daemon.vi"/>
-				<Item Name="Remove Duplicates From 1D Array.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Remove Duplicates From 1D Array.vim"/>
 			</Item>
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -622,7 +624,6 @@ AddOutputFilter chunkFilter
 			<Item Name="nivision.dll" Type="Document" URL="nivision.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Shooter with Duration.vi" Type="VI" URL="../Shooter/Commands/Shooter with Duration.vi"/>
 			<Item Name="Shooter Operations.ctl" Type="VI" URL="../Shooter/Implementation/Shooter Operations.ctl"/>
 			<Item Name="Shooter Setpoints.ctl" Type="VI" URL="../Shooter/Implementation/Shooter Setpoints.ctl"/>
 			<Item Name="Shooter Command Helper.vi" Type="VI" URL="../Shooter/Implementation/Infrastructure/Shooter Command Helper.vi"/>
