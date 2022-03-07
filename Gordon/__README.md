@@ -6,5 +6,8 @@ For formatting and loading image by reformatting, use only the USB cable again a
 Follow the instructions explicitly. 
 https://mililanirobotics.gitbooks.io/frc-electrical-bible/content/roboRIO/configuring_the_roborio.html
 
-Disable Windows Fast Startup.
+Disable Windows Fast Startup:
+Windows Start button/Settings/System/Power & Sleep, Additional power settings, Choose what the power buttons do. 
+Under Shudown settings below, uncheck the box for "Turn on fast startup (recommended)" and "Save changes".
+
 
