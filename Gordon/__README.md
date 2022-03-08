@@ -10,4 +10,7 @@ Disable Windows Fast Startup:
 Windows Start button/Settings/System/Power & Sleep, Additional power settings, Choose what the power buttons do. 
 Under Shudown settings below, uncheck the box for "Turn on fast startup (recommended)" and "Save changes".
 
+FRC Support Forum:
+You do not need to pay for NI support. Please use the NI FRC forums to get in touch with our FRC-dedicated support team. 
+https://forums.ni.com/t5/FIRST/ct-p/first
 
