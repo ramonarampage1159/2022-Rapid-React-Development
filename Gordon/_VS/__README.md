@@ -1,3 +1,3 @@
-Notes for FRC robots running VS code:
+Notes for FRC robots with VS code:
 
 
