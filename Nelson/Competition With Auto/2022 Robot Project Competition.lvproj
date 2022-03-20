@@ -720,24 +720,24 @@ AddOutputFilter chunkFilter
 				<Property Name="TgtF_targetfileGUID" Type="Str">{B0F0D109-BC56-4F69-B33E-7E219BE9C215}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">startup.rtexe</Property>
 			</Item>
-			<Item Name="My Real-Time Application" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
+			<Item Name="Build" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
-				<Property Name="App_INI_aliasGUID" Type="Str">{DB9EB6EA-0AD3-4769-951F-F2E2BBFAEF80}</Property>
-				<Property Name="App_INI_GUID" Type="Str">{903CCD1F-9C26-4DD7-ABFE-8C3CE9A36D52}</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{B8C38FBD-06D7-420E-87E0-6817973EBECB}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{7DCBEC07-1A77-4C80-9A92-4D5664B380B1}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="App_serverType" Type="Int">0</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{564296F7-CB4C-4EBA-8164-816ECA44F9FB}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">My Real-Time Application</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{E23AA976-57FE-4239-BB13-59CB1B3F7562}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Build</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/NI_AB_TARGETNAME/My Real-Time Application</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/NI_AB_TARGETNAME/Build</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{9660B263-3B4E-4811-BB44-90DF04E2301E}</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{9DA45E2A-BCCB-4A5B-B2AB-7EA89989C65E}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.build" Type="Int">2</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
@@ -748,7 +748,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Destination[1].path" Type="Path">/home/lvuser/natinst/bin/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{127A8B2B-05FB-4185-8987-FC74B4903C12}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{F20A3F71-FA21-4274-9881-CB2E6D34412B}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/Target/Robot Main.vi</Property>
@@ -756,11 +756,11 @@ AddOutputFilter chunkFilter
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
 				<Property Name="TgtF_companyName" Type="Str">Ramona Convent Secondary School</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">My Real-Time Application</Property>
-				<Property Name="TgtF_internalName" Type="Str">My Real-Time Application</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Build</Property>
+				<Property Name="TgtF_internalName" Type="Str">Build</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2022 Ramona Convent Secondary School</Property>
-				<Property Name="TgtF_productName" Type="Str">My Real-Time Application</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{36C953E8-EC52-4B84-A9B4-1297BE3C7F31}</Property>
+				<Property Name="TgtF_productName" Type="Str">Build</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{0DAB5355-CB1D-450A-89AC-5C986AC6A9BE}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">startup.rtexe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
